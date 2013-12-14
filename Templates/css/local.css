@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+.templatesTitle{
+line-height:2em;
+padding-left:1em;
+font-weight:bold;
+font-size:20px;
+background: #a0d8ef;
+background: -moz-linear-gradient(top,  #a0d8ef 0%, #ddf1f9 35%, #ffffff 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a0d8ef), color-stop(35%,#ddf1f9), color-stop(100%,#ffffff));
+background: -webkit-linear-gradient(top,  #a0d8ef 0%,#ddf1f9 35%,#ffffff 100%);
+background: -o-linear-gradient(top,  #a0d8ef 0%,#ddf1f9 35%,#ffffff 100%);
+background: -ms-linear-gradient(top,  #a0d8ef 0%,#ddf1f9 35%,#ffffff 100%);
+background: linear-gradient(to bottom,  #a0d8ef 0%,#ddf1f9 35%,#ffffff 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a0d8ef', endColorstr='#ffffff',GradientType=0 );
+margin-bottom:20px;
+}
+.templatesName{
+line-height:1.5em;
+padding-left:1em;
+font-weight:bold;
+border:2px dotted #FF6600;
+margin:20px 0 10px 0;
+}

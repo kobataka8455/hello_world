@@ -1,0 +1,801 @@
+@charset "utf-8";
+
+/*----------------------------------------------------------------------------------------------
+ MHF Ver. 1.01.00
+----------------------------------------------------------------------------------------------*/
+
+
+/* unit
+----------------------------------------------------------------------------------------------*/
+/* ========== mhfUnit ========== */
+.mhfUnit01{
+margin-bottom:10px;
+clear:both;
+}
+
+.mhfUnit02{
+margin-bottom:20px;
+clear:both;
+}
+
+.mhfUnit03{
+margin-bottom:30px;
+clear:both;
+}
+
+.mhfUnit04{
+margin-bottom:40px;
+clear:both;
+}
+
+.mhfUnit05{
+margin-bottom:50px;
+clear:both;
+}
+
+
+
+/* column
+----------------------------------------------------------------------------------------------*/
+/* ========== mhfColumn ========== */
+.mhfColumn01{
+margin-left:-20px;
+}
+.mhfColumn01:after{
+content:"";
+display:block;
+clear:both;
+}
+.mhfColumn01Inner01{
+margin-left:20px;
+width:470px;
+float:left;
+}
+
+.mhfInlineBlock01{
+margin-left:-20px;
+letter-spacing:-0.4em;
+word-spacing:-0.4em;
+}
+.mhfInlineBlock01Inner01{
+margin-left:20px;
+display:inline-block;
+letter-spacing:0em;
+word-spacing:0em;
+vertical-align:top;
+}
+
+/* ========== mhfColumnImage ========== */
+.mhfColumnImage01{
+width:100%;
+display:table;
+direction:rtl;
+}
+.mhfColumnImage01 .blockColumn{
+padding-right:20px;
+padding-bottom:1px;
+display:table-cell;
+direction:ltr;
+vertical-align:top;
+}
+.mhfColumnImage01 .imageColumn{
+display:table-cell;
+vertical-align:top;
+direction:ltr;
+}
+
+.mhfColumnImage02{
+width:100%;
+display:table;
+}
+.mhfColumnImage02 .imageColumn{
+margin:0;
+padding-bottom:10px;
+display:table-cell;
+vertical-align:top;
+}
+.mhfColumnImage02 .blockColumn{
+padding-bottom:1px;
+padding-left:20px;
+display:table-cell;
+vertical-align:top;
+}
+
+.mhfColumnFloatImage01{
+}
+.mhfColumnFloatImage01:after{
+content:"";
+display:block;
+clear:both;
+}
+.mhfColumnFloatImage01 .imageColumn{
+margin-left:20px;
+float:right;
+}
+.mhfColumnFloatImage01 .blockColumn{
+}
+
+.mhfColumnFloatImage02{
+}
+.mhfColumnFloatImage02:after{
+content:"";
+display:block;
+clear:both;
+}
+.mhfColumnFloatImage02 .imageColumn{
+margin-right:20px;
+float:left;
+}
+.mhfColumnFloatImage02 .blockColumn{
+}
+
+
+
+/* block
+----------------------------------------------------------------------------------------------*/
+.mhfErasticBlock01{
+margin-right:auto;
+margin-left:auto;
+display:table;
+}
+
+/* ========== mhfGeneralBlock ========== */
+.mhfGeneralBlock01{
+padding:10px 10px 1px;
+}	
+
+
+
+/* list
+----------------------------------------------------------------------------------------------*/
+/* ========== mhfList ========== */
+.mhfListAlignR{
+}
+.mhfListAlignR:after{
+content:"";
+display:block;
+clear:both;
+}
+.mhfListAlignR li{
+float:right;
+clear:right;
+}
+
+.mhfHorizontalList01{
+margin-left:-20px;
+letter-spacing:-0.4em;
+word-spacing:-0.4em;
+}
+.mhfHorizontalList01 li{
+margin-left:20px;
+display:inline-block;
+letter-spacing:0em;
+word-spacing:0em;
+vertical-align:top;
+}
+
+.mhfHorizontalListAlignC{
+text-align:center !important;
+}
+.mhfHorizontalListAlignC li{
+text-align:left !important;
+}
+
+.mhfHorizontalListAlignR{
+text-align:right !important;
+}
+.mhfHorizontalListAlignR li{
+text-align:left !important;
+}
+
+/* ========== mhfNotesList ========== */
+.mhfNotesList01{
+margin-left:0;
+padding-left:0;
+list-style:none;
+}
+.mhfNotesList01 li{
+padding-left:1em;
+text-indent:-1em;
+}
+
+.mhfNotesList02{
+margin-left:0;
+padding-left:0;
+list-style:none;
+}
+.mhfNotesList02 li{
+padding-left:2em;
+text-indent:-1em;
+}
+.mhfNotesList02 li .notesMark{
+padding-right:0.5em;
+display:inline-block;
+}
+
+/* ========== mhfOrderdedList ========== */
+.mhfOrderedList01{
+margin-left:1.5em;
+padding-left:0;
+}
+
+.mhfOrderedList02{
+margin-left:0;
+padding-left:0;
+list-style:none;
+}
+.mhfOrderedList02 li{
+padding-left:1.8em;
+text-indent:-1.6em;
+}
+.mhfOrderedList02 li .listMark{
+padding-right:0.5em;
+display:inline-block;
+text-indent:0;
+}
+
+/* ========== mhfImageList ========== */
+.mhfImageList01{
+}
+.mhfImageList01 li{
+margin-bottom:10px;
+}
+
+.mhfHorizontalImageList01{
+margin-bottom:0;
+margin-left:-10px;
+position:relative;
+letter-spacing:-0.4em;
+word-spacing:-0.4em;
+}
+.mhfHorizontalImageList01 li{
+margin-bottom:10px;
+margin-left:10px;
+display:inline-block;
+letter-spacing:0em;
+word-spacing:0em;
+vertical-align:top;
+}
+
+/* ========== mhfIndexList ========== */
+.mhfIndexList01{
+border-bottom:1px solid #ddd;
+}
+.mhfIndexList01 li a{
+padding:10px 30px 10px 10px;
+border-top:1px solid #ddd;
+display:block;
+position:relative;
+}
+.mhfIndexList01 li a:after{
+content:url(../images/mod_mhf_ico_arrow_02_right.png);
+margin-top:-9px;
+position:absolute;
+top:50%;
+right:10px;
+}
+
+.mhfIndexList02{
+border-bottom:1px solid #ddd;
+}
+.mhfIndexList02 li a{
+padding:10px 30px 10px 10px;
+border-top:1px solid #ddd;
+display:block;
+position:relative;
+/zoom:1;
+}
+.mhfIndexList02 li a:after{
+content:url(../images/mod_mhf_ico_arrow_02_right.png);
+margin-top:-9px;
+position:absolute;
+top:50%;
+right:10px;
+}
+.mhfIndexList02 li a .image{
+padding-right:10px;
+display:table-cell;
+width:1%;
+/width:auto;
+/float:left;
+vertical-align:top;
+}
+.mhfIndexList02 li a .summary{
+display:table-cell;
+vertical-align:middle;
+/zoom:1;
+}
+
+
+
+/* table
+----------------------------------------------------------------------------------------------*/
+/* ========== mhfTable ========== */
+.mhfTable01{
+width:100%;
+}
+.mhfTable01 th,
+.mhfTable01 td{
+padding:10px;
+border:1px solid #ddd;
+}
+
+
+
+/* form
+----------------------------------------------------------------------------------------------*/
+/* ========== mhfInputList ========== */
+.mhfInputList01{
+}
+.mhfInputList01 li{
+}
+.mhfInputList01 li label{
+display:table;
+cursor:pointer;
+}
+.mhfInputList01 li input{
+margin-right:0.5em;
+display:table-cell;
+vertical-align:text-bottom;
+}
+.mhfInputList01 li .labelName{
+display:table-cell;
+}
+
+.mhfHorizontalInputList01{
+letter-spacing:-0.4em;
+word-spacing:-0.4em;
+}
+.mhfHorizontalInputList01 li{
+margin-right:2em;
+display:inline-block;
+letter-spacing:0em;
+word-spacing:0em;
+vertical-align:top;
+}
+.mhfHorizontalInputList01 li label{
+display:table;
+cursor:pointer;
+}
+.mhfHorizontalInputList01 li input{
+margin-right:0.5em;
+display:table-cell;
+vertical-align:text-bottom;
+}
+.mhfHorizontalInputList01 li .labelName{
+display:table-cell;
+}
+
+
+/* ========== mhfInputName ========== */
+.mhfInputName01{
+margin-left:-20px;
+}
+.mhfInputName01 label{
+margin-left:20px;
+}
+.mhfInputName01 label .labelText{
+width:2em;
+display:inline-block;
+/display:inline;
+/zoom:1;
+}
+
+
+
+/* semantic module
+----------------------------------------------------------------------------------------------*/
+/* ========== mhfPaging ========== */
+.mhfPaging01{
+list-style:none;
+text-align:center;
+letter-spacing:-0.4em;
+word-spacing:-0.4em;
+}
+.mhfPaging01 li{
+margin-right:1em;
+display:inline-block;
+letter-spacing:0em;
+word-spacing:0em;
+vertical-align:middle;
+}
+.mhfPaging01 li.prev{
+}
+.mhfPaging01 li.next{
+margin-right:0;
+}
+
+/* ========== mhfTimeline ========== */
+.mhfTimeline01{
+border-collapse:collapse;
+border-spacing:0;
+}
+.mhfTimeline01 td.date{
+padding-right:1em;
+vertical-align:top;
+white-space:nowrap;
+}
+.mhfTimeline01 td{
+vertical-align:top;
+}
+
+/* ========== mhfTopicPath ========== */
+.mhfTopicPath01{
+}
+.mhfTopicPath01 a{
+margin-right:0.5em;
+margin-left:0.5em;
+}
+.mhfTopicPath01 a:first-child{
+margin-left:0;
+}
+.mhfTopicPath01 em{
+margin-left:0.5em;
+}
+
+
+
+/* Javascript
+----------------------------------------------------------------------------------------------*/
+/* ========== mhfAccordion ========== */
+.mhfAccordion01{
+}
+.mhfAccordion01 dt{
+}
+.mhfAccordion01 dt a{
+display:block;
+padding:10px;
+background:url(../images/mod_mhf_ico_arrow_01_right.gif) no-repeat 98% center;
+}
+.mhfAccordion01.accordionOpen dt a{
+background-image:url(../images/mod_mhf_ico_arrow_01_bottom.gif);
+}
+.mhfAccordion01 dd{
+padding:10px;
+}
+
+/* ========== mhfFontSizeChange ========== */
+.mhfFontSizeChange01{
+}
+.mhfFontSizeChange01 #fontSizeChange{
+border-collapse:collapse;
+display:table;
+}
+.mhfFontSizeChange01 #fontSizeChange dt,
+.mhfFontSizeChange01 #fontSizeChange dd{
+display:table-cell;
+vertical-align:middle;
+}
+.mhfFontSizeChange01 #fontSizeChange dt{
+padding-right:5px;
+}
+.mhfFontSizeChange01 #fontSizeChange dd{
+border:1px solid #ccc;
+}
+.mhfFontSizeChange01 #fontSizeChange dd:hover{
+border:1px solid #eee7de;
+}
+.mhfFontSizeChange01 #fontSizeChange dd.active{
+border:1px solid #000;
+}
+.mhfFontSizeChange01 #fontSizeChange dd a{
+display:block;
+overflow:hidden;
+width:23px;
+height:22px;
+}
+.mhfFontSizeChange01 #fontSizeChange dd a:before{
+content:url(../images/mod_mhf_font-size-change_bg_01.gif);
+position:relative;
+}
+.mhfFontSizeChange01 #fontSizeChange dd#switchFontSizeSmall a:before{ top:-22px; left:0; }
+.mhfFontSizeChange01 #fontSizeChange dd#switchFontSizeMedium a:before{ top:-22px; left:-23px; }
+.mhfFontSizeChange01 #fontSizeChange dd#switchFontSizeLarge a:before{ top:-22px; left:-46px; }
+.mhfFontSizeChange01 #fontSizeChange dd a:hover:before{ top:0 !important; }
+.mhfFontSizeChange01 #fontSizeChange dd.active a:before{ top:-44px !important; }
+
+.mhfFontSizeChange02{
+}
+.mhfFontSizeChange02 #fontSizeChange{
+border-collapse:collapse;
+display:table;
+}
+.mhfFontSizeChange02 #fontSizeChange dt,
+.mhfFontSizeChange02 #fontSizeChange dd{
+display:table-cell;
+vertical-align:middle;
+}
+.mhfFontSizeChange02 #fontSizeChange dt{
+padding-right:5px;
+}
+.mhfFontSizeChange02 #fontSizeChange dd{
+border:1px solid #ccc;
+}
+.mhfFontSizeChange02 #fontSizeChange dd:hover{
+border:1px solid #eee7de;
+}
+.mhfFontSizeChange02 #fontSizeChange dd.active{
+border:1px solid #000;
+}
+.mhfFontSizeChange02 #fontSizeChange dd a{
+padding:2px 5px;
+display:block;
+background:#fff;
+color:#000;
+font-weight:bold;
+text-decoration:none;
+}
+.mhfFontSizeChange02 #fontSizeChange dd a:hover{
+background:#eee7de;
+}
+.mhfFontSizeChange02 #fontSizeChange dd.active a{
+background:#000;
+color:#fff;
+}
+
+/* ========== mhfSlideshow ========== */
+.mhfSlideshowThumb01{
+padding-bottom:10px;
+position:relative;
+overflow:hidden;
+}
+.mhfSlideshowThumb01 .slides{
+margin-bottom:15px;
+position:relative;
+}
+.mhfSlideshowThumb01 .slides:after{
+content:"";
+display:block;
+clear:both;
+}
+.mhfSlideshowThumb01 .slides li{
+float:left;
+display:none;
+}
+.mhfSlideshowThumb01 .crossfade .slides li{
+position:absolute;
+float:none;
+}
+.mhfSlideshowThumb01 .slides li:first-child{
+display:block;
+}
+.mhfSlideshowThumb01 .slideControl{
+padding:0 15px;
+display:none;
+position:relative;
+clear:both;
+}
+.mhfSlideshowThumb01 .active{
+position:absolute;
+top:-16px;
+left:16px;
+z-index:999;
+text-align:center;
+}
+.mhfSlideshowThumb01 .cursor{
+display:none;
+}
+.mhfSlideshowThumb01 .cursor li{
+position:absolute;
+top:0;
+z-index:10;
+}
+.mhfSlideshowThumb01 .cursor li.prev{
+left:0;
+}
+.mhfSlideshowThumb01 .cursor li.next{
+right:0;
+}
+.mhfSlideshowThumb01 .cursor li a{
+display:block;
+background:#ddd;
+}
+.mhfSlideshowThumb01 .select{
+position:relative;
+letter-spacing:-0.4em;
+word-spacing:-0.4em;
+overflow:hidden;
+white-space:nowrap;
+}
+.mhfSlideshowThumb01 .select li{
+padding-left:5px;
+display:inline-block;
+/display:inline;
+letter-spacing:0em;
+word-spacing:0em;
+/zoom:1;
+}
+
+.mhfSlideshowNav01{
+position:relative;
+overflow:hidden;
+}
+.mhfSlideshowNav01 .slides{
+margin-bottom:10px;
+position:relative;
+/zoom:1;
+}
+.mhfSlideshowNav01 .slides:after{
+height:0;
+display:block;
+clear:both;
+visibility:hidden;
+content:".";
+line-height:0;
+}
+.mhfSlideshowNav01 .slides li{
+float:left;
+display:none;
+}
+.mhfSlideshowNav01 .crossfade .slides li{
+position:absolute;
+float:none;
+}
+.mhfSlideshowNav01 .slides li:first-child{
+display:block;
+}
+.mhfSlideshowNav01 .slideControl{
+display:none;
+clear:both
+}
+.mhfSlideshowNav01 .cursor{
+}
+.mhfSlideshowNav01 .cursor li{
+position:absolute;
+top:24px;
+}
+.mhfSlideshowNav01 .cursor li.prev{
+left:0;
+}
+.mhfSlideshowNav01 .cursor li.next{
+right:0;
+}
+.mhfSlideshowNav01 .cursor li img{
+}
+.mhfSlideshowNav01 .select{
+letter-spacing:-0.4em;
+word-spacing:-0.4em;
+}
+.mhfSlideshowNav01 .select li{
+margin-right:2px;
+display:inline-block;
+/display:inline;
+letter-spacing:0em;
+word-spacing:0em;
+/zoom:1;
+}
+.mhfSlideshowNav01 .select li a{
+padding:5px;
+border:1px solid #ccc;
+display:block;
+background:#ddd;
+text-decoration:none;
+}
+.mhfSlideshowNav01 .select li.active a,
+.mhfSlideshowNav01 .select li a:hover{
+background:#eee;
+}
+
+/* ========== mhfCarousel ========== */
+.mhfCarousel01{
+padding-bottom:10px;
+position:relative;
+overflow:hidden;
+}
+.mhfCarousel01 .slideControl{
+padding:0 15px;
+position:relative;
+clear:both;
+}
+.mhfCarousel01 .cursor{
+display:none;
+}
+.mhfCarousel01 .cursor li{
+position:absolute;
+top:0;
+z-index:10;
+}
+.mhfCarousel01 .cursor li.prev{
+left:0;
+}
+.mhfCarousel01 .cursor li.next{
+right:0;
+}
+.mhfCarousel01 .cursor li a{
+padding-top:29px;
+height:54px;
+display:block;
+background:#ddd;
+}
+.mhfCarousel01 .select{
+position:relative;
+letter-spacing:-0.4em;
+word-spacing:-0.4em;
+overflow:hidden;
+white-space:nowrap;
+}
+.mhfCarousel01 .select li{
+padding-left:5px;
+display:inline-block;
+/display:inline;
+letter-spacing:0em;
+word-spacing:0em;
+/zoom:1;
+}
+
+
+
+/* generic style
+----------------------------------------------------------------------------------------------*/
+/* ========== mhfAlig ========== */
+.mhfAlignL,
+.mhfAlignC .mhfAlignL,
+.mhfAlignR .mhfAlignL{
+text-align:left !important;
+}
+
+.mhfAlignC,
+.mhfAlignL .mhfAlignC,
+.mhfAlignR .mhfAlignC{
+text-align:center !important;
+}
+
+.mhfAlignR,
+.mhfAlignC .mhfAlignR,
+.mhfAlignL .mhfAlignR{
+text-align:right !important;
+}
+
+/* ========== mhfValign ========== */
+.mhfValignT,
+.mhfValignM .mhfValignT,
+.mhfValignB .mhfValignT{
+vertical-align:top !important;
+}
+
+.mhfValignM,
+.mhfValignT .mhfValignM,
+.mhfValignB .mhfValignM{
+vertical-align:middle !important;
+}
+
+.mhfValignB,
+.mhfValignT .mhfValignB,
+.mhfValignM .mhfValignB{
+vertical-align:bottom !important;
+}
+
+/* ========== mhfFontSize ========== */
+.mhfFontSizeLarge01{
+font-size:14px;
+}
+
+.mhfFontSizeLarge02{
+font-size:16px;
+}
+
+.mhfFontSizeLarge03{
+font-size:18px;
+}
+
+.mhfFontSizeLarge04{
+font-size:20px;
+}
+
+.mhfFontSizeLarge05{
+font-size:22px;
+}
+
+.mhfFontSizeLarge06{
+font-size:24px;
+}
+
+.mhfFontSizeSmall01{
+font-size:10.5px;
+}
+
+.mhfWordBreak{
+display:inline-block;
+word-break:break-all;
+word-wrap:break-word;
+}
